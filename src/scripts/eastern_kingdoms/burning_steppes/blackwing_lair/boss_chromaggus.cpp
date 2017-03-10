@@ -124,7 +124,7 @@ struct boss_chromaggusAI : public ScriptedAI
         m_uiShimmerTimer    = 0;                            // Time till we change vurlnerabilites
         m_uiBreathOneTimer  = 30000;                        // First breath is 30 seconds
         m_uiBreathTwoTimer  = 60000;                        // Second is 1 minute so that we can alternate
-        m_uiAfflictionTimer = 4000;                        // This is special - 5 seconds means that we cast this on 1 pPlayer every 5 sconds
+        m_uiAfflictionTimer = 4000;                        // This is special - 5 seconds means that we cast this on 1 pPlayer every 5 seconds
         m_uiFrenzyTimer     = 15000;
 
         m_bEnraged          = false;
